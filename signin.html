@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign In Page</title>
+    <link rel="shortcut icon" href="img/c.png" type="img/c.png">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    <h1 class="h1">clubly</h1>
+    <main id="main">
+        <h3>sign up</h3>
+        <p class="p">Its free and only takes a minute</p>
+    
+        <div class="containers">
+            <form action="signin.html">
+                <label for="name"></label><br>
+                <input type="text" name="name" placeholder="First Name" autocomplete="enable"><br>
+                <label for="name"></label><br>
+                <input type="text" name="name" placeholder="Last Name" autocomplete="enable"><br>
+                <label for="email"></label><br>
+                <input type="email" name="email" placeholder="Email" autocomplete="enable"><br>
+                <label for="password"></label><br>
+                <!-- for password that contain letters, numbers and special characters -->
+                <input type="password" name="name" autocomplete="enable" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                    title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"><br>
+                <label for="name"></label><br>
+                <input type="password" name="name" autocomplete="enable" placeholder="Confirm Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                    title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"><br>
+                <input type="submit" name="">
+    
+            </form>
+        </div>
+        <p class="p"> clicking the signup button, you agree to our <a href="#">terms &amp conditions</a> and <a
+                href="#">privacy policy</a></p>
+    </main>
+    
+    <p class="pa"> Have an account? <a href="login.html"> Login Here</a></p>
+</body>
+</html>

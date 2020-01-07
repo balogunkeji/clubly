@@ -1,0 +1,206 @@
+ *{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    width: 100%;
+    background: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: fit-content;
+    margin-top: 10%;
+    
+}
+
+header{
+border-bottom: 1px solid gray;
+display: flex;
+height: fit-content;
+justify-content: flex-end;
+margin: 10px 0 10px 0;
+
+}
+
+h1{
+    text-transform: uppercase;
+    letter-spacing: 0.10em;
+    flex-basis: 90%;
+}
+
+.login{
+  background-color: lightblue; 
+  color: white;
+  padding:  0 18px;
+  text-align: center;
+  text-decoration: none;
+  align-self: flex-end;
+  font-size: 16px;
+  border-radius: 3px;
+  height: 33px;
+  box-shadow: none;
+  box-sizing: border-box;
+  left: 95%;
+  margin-right: 20px;
+
+}
+
+img{
+    width: 80%;
+    height: 60%;
+}
+
+h2{
+    text-transform: capitalize;
+    font-size: 50px;
+    line-height: 1;
+    padding: 0 5%;
+}
+
+.a{
+    text-decoration: none;
+    color: white;
+}
+
+p{
+    font-size: 18px;
+    margin-top: 2%;
+    padding: 0 5%;
+    word-spacing: 3px;
+
+}
+
+.get{
+    background-color:   darkblue;
+    margin-top: 2%; 
+    color: white;
+    padding:  0 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    height: 33px;
+    box-shadow: none;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    margin-left: 5%;
+    cursor: pointer;
+
+}
+
+.h1{
+    text-transform: uppercase;
+    margin: 1% 0 0 2%;
+    letter-spacing: -0.10em;
+ }
+
+  main{
+	background: white;
+	max-width: 25%;
+	max-height: 55%;
+	margin: 50px auto;
+    word-spacing: 0.2em;
+    box-sizing: border-box;
+    border: 1px solid rgba(220, 220, 220, 0.6);
+    padding: 2%;
+}
+ 
+h3{
+    text-transform: capitalize;
+    font-size: 26px;
+    color:  rgba(0,0,0,0.6);
+    
+}
+
+main h3,.p{
+	text-align: center;
+}
+
+
+main .p{
+    padding-top: 10px;
+    font-size: 12px;
+    color: rgba(192, 192, 192, 0.8);
+    line-height: 1.5;
+    
+}
+
+/* form{ */
+	/* */
+    /* /* position: absolute;  */
+    
+/* } */
+label{ 
+	text-transform: capitalize;
+} 
+
+input[type="email"],[type="password"],[type="text"]{
+    border: none;
+    line-height: 20px;
+    color: rgba(0,0,0,.65);
+    box-sizing: border-box;
+    list-style: none;
+    width: 100%;
+    height: 48px;
+    outline: none;
+    padding-top: 15px;
+    border-bottom: 1.5px solid rgba(220, 220, 220, 0.6);
+}
+
+.container{
+    line-height: 3;
+}
+
+
+.butt, input[type="submit"]{
+	
+	background-color: lightblue;
+	color: white;
+	font-size: 16px;
+	text-align: center;
+	border: none;
+	padding: 0 50px;
+	text-decoration: none;
+    cursor: pointer;
+    height: 30px;
+    width: 100%;
+}
+
+.input1,.input2{
+    display: grid;
+    grid-template-columns: 1fr 260px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+span{
+    
+    font-size: 20px;
+    padding-bottom: 1.5em;
+}
+
+ input[type="email"],input[type="text"],input[type="password"]:focus{
+    border-radius: 5px;
+    border-bottom: 1px solid rgba(220, 220, 220, 0.6);
+    width: 100%;
+    height: 40px;
+    padding-top: 2em;
+    /* visibility: hidden; */
+
+
+}
+
+h5{
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.pa{
+    text-align: center;
+    margin-top: -25px;
+}
