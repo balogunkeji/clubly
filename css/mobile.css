@@ -47,7 +47,7 @@ p ,span{
 
 main{
     display: block;
-    min-width: 50%;
+    max-width: 60%;
     height: fit-content;
 }
 
