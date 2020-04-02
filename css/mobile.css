@@ -82,6 +82,13 @@ input[type="email"],[type="password"],[type="text"]{
     height: 30px;
 }
 
+.input1,.input2{
+     max-width: 100%;   
+}
+
+span{
+    font-size: 1.5rem;
+}
 
 
 
