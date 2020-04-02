@@ -81,7 +81,9 @@ p{
 
 .get{
     background-color:   darkblue;
-    margin-top: 2%; 
+    margin-top: 2%;
+    border: none; 
+    border-radius: 1rem;
     color: white;
     padding:  0 30px;
     text-align: center;
