@@ -47,7 +47,7 @@ p ,span{
 
 main{
     display: block;
-    max-width: 40%;
+    min-width: 50%;
     height: fit-content;
 }
 
@@ -57,7 +57,7 @@ h3{
 
 input[type="email"],[type="password"],[type="text"]{
     line-height: 1rem;
-    width: fit-content;
+    max-width: 100%;
     padding-top: 10px;
     margin-top: 1rem;
     overflow: hidden;
@@ -72,14 +72,14 @@ input[type="email"],[type="password"],[type="text"]{
 	
 	font-size: 12px;
 	text-align: center;
-	border: none;
-    padding: 0 40px;
+    border: none;
+    max-width: 100%;
+    padding: 0 70px;
     margin-top: 1rem;
-    margin-left: 3rem;
+    margin-left: 1.5rem;
 	text-decoration: none;
     cursor: pointer;
     height: 30px;
-    width: fit-content;
 }
 
 
