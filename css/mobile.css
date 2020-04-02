@@ -1,0 +1,87 @@
+section{
+    display: grid;
+    grid-template-columns: auto;
+    width: 100vw;
+    height: fit-content;
+}
+
+h1{
+    display: flex;
+    flex-basis: 79%;
+}
+
+.login{
+    font-size: 1.3rem;
+}
+
+img{
+    display: block;
+    width: 100vw;
+    padding: 3rem 0;
+}
+
+h2{
+    font-size: 4rem;
+    padding: 0 4%;
+}
+
+p ,span{
+    font-size: 1.5rem;
+    padding: 0 4%;
+    word-spacing: .2rem;
+}
+
+.get{
+    margin-top: 3%;
+    padding: 0 25px;
+    font-size: 12px;
+
+}
+
+.h1{
+    display: block;
+    letter-spacing: .5rem;
+}
+
+main{
+    display: block;
+    max-width: 40%;
+    height: fit-content;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+input[type="email"],[type="password"],[type="text"]{
+    line-height: 1rem;
+    width: fit-content;
+    padding-top: 10px;
+    margin-top: 1rem;
+    overflow: hidden;
+
+}
+
+.container{
+    line-height: 4;
+}
+
+.butt, input[type="submit"]{
+	
+	font-size: 12px;
+	text-align: center;
+	border: none;
+    padding: 0 40px;
+    margin-top: 1rem;
+    margin-left: 3rem;
+	text-decoration: none;
+    cursor: pointer;
+    height: 30px;
+    width: fit-content;
+}
+
+
+
+
+
+
