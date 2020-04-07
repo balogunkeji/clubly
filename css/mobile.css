@@ -57,7 +57,7 @@ h3{
 
 input[type="email"],[type="password"],[type="text"]{
     line-height: 1rem;
-    max-width: 80%;
+    width: 80%;
     padding-top: 10px;
     margin-top: 1rem;
     overflow: hidden;
