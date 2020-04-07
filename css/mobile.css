@@ -41,7 +41,7 @@ p ,span{
 }
 
 .h1{
-    display: block;
+    /* display: block; */
     letter-spacing: .5rem;
 }
 
@@ -76,7 +76,7 @@ input[type="email"],[type="password"],[type="text"]{
     max-width: 100%;
     padding: 0 70px;
     margin-top: 1rem;
-    margin-left: 1.5rem;
+    margin-left: 9rem;
 	text-decoration: none;
     cursor: pointer;
     height: 30px;
